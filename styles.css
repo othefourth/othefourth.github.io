@@ -592,3 +592,27 @@ code {
     gap: 16px;
   }
 }
+
+
+/* Real portfolio project */
+.project-link {
+  display: block;
+  color: inherit;
+}
+
+.project-media-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.project-description {
+  max-width: 760px;
+  margin: 15px 0 0;
+  color: #425678;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.project-featured .project-meta h2 {
+  font-size: clamp(24px, 2.8vw, 42px);
+}
