@@ -1,116 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Owen Malone — video editor." />
-  <title>Owen Malone — Video Editor</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Owen Malone makes videos. Selected work from The Washington Post, freelance projects and film school.">
+  <title>Owen Malone — I make videos.</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top">Owen Malone</a>
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="#work">work</a>
-      <a href="#about">about</a>
-      <a href="#contact">hello</a>
+  <header class="topbar">
+    <a class="name" href="#top">Owen Malone</a>
+    <nav>
+      <a href="#reel">Showreel</a>
+      <a href="#post">Post</a>
+      <a href="#freelance">Freelance</a>
+      <a href="#school">Film School</a>
+      <a href="#about">About</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-title-wrap">
-        <p class="tiny-note">video editor</p>
-        <h1>I like finding<br>the <span>good bit.</span></h1>
+      <div class="hero-inner">
+        <h1>Owen Malone</h1>
+        <p>I make videos.</p>
       </div>
-      <div class="hero-side">
-        <p>I edit stories for screens big and small — often fast, sometimes strange, always with care.</p>
-        <a href="#work" class="soft-link">see some work ↓</a>
-      </div>
-      <div class="orange-dot dot-one"></div>
-      <div class="orange-dot dot-two"></div>
+      <div class="scribble" aria-hidden="true">↘</div>
     </section>
 
-    <section class="work" id="work">
-      <div class="work-heading">
-        <h2>Selected work</h2>
-        <p>A mix of vertical, editorial and longer-form pieces.</p>
+    <section class="reel-section" id="reel">
+      <div class="section-intro">
+        <span class="chapter">00</span>
+        <h2>Showreel</h2>
+      </div>
+      <button class="reel-frame" id="reelButton" type="button" aria-label="Open showreel">
+        <div class="reel-art">
+          <span class="reel-word">PLAY</span>
+          <span class="reel-note">showreel coming soon</span>
+        </div>
+      </button>
+    </section>
+
+    <section class="chapter-section" id="post">
+      <div class="section-intro">
+        <span class="chapter">01</span>
+        <div>
+          <h2>The Washington Post</h2>
+          <p>Selected work.</p>
+        </div>
       </div>
 
-      <div class="project-row vertical-feature">
-        <div class="project-copy">
-          <span class="project-number">01</span>
-          <h3>Alexi Lalas &amp; U.S. Soccer</h3>
-          <p class="project-client">The Washington Post</p>
-          <p class="project-blurb">A vertical opinion piece built from presenter footage, archival moments and a lot of tiny pacing decisions.</p>
-          <a class="watch-link" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener noreferrer">watch the short ↗</a>
-        </div>
-
-        <a class="vertical-frame" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener noreferrer" aria-label="Watch Alexi Lalas and U.S. Soccer">
-          <img src="lalas-vertical.jpg" alt="Still from Alexi Lalas and U.S. Soccer vertical video" />
-          <span class="play-pill">play</span>
+      <div class="post-grid">
+        <a class="vertical-project" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener">
+          <div class="vertical-frame lalas">
+            <span class="play-pill">play ↗</span>
+          </div>
+          <div class="project-caption">
+            <h3>Alexi Lalas &amp; U.S. Soccer</h3>
+            <span>2026</span>
+          </div>
         </a>
 
-        <div class="side-note">vertical<br>9:16</div>
+        <div class="vertical-project placeholder">
+          <div class="vertical-frame empty-frame">
+            <span>vertical work</span>
+          </div>
+          <div class="project-caption">
+            <h3>Next project</h3>
+            <span>—</span>
+          </div>
+        </div>
+
+        <div class="wide-project placeholder">
+          <div class="wide-frame empty-frame">
+            <span>landscape work</span>
+          </div>
+          <div class="project-caption">
+            <h3>Next project</h3>
+            <span>—</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter-section freelance" id="freelance">
+      <div class="section-intro">
+        <span class="chapter">02</span>
+        <div>
+          <h2>Freelance</h2>
+          <p>Things I've made with good people.</p>
+        </div>
       </div>
 
-      <div class="project-grid">
-        <article class="project-card wide-card">
-          <div class="placeholder-image warm-one"><span>02</span></div>
-          <div class="card-copy">
-            <h3>Next project</h3>
-            <p>A wider piece can live here — documentary, profile, explainer, whatever deserves the space.</p>
-          </div>
-        </article>
+      <div class="freelance-grid">
+        <div class="wide-project placeholder">
+          <div class="wide-frame empty-frame"><span>your work here</span></div>
+          <div class="project-caption"><h3>Project title</h3><span>—</span></div>
+        </div>
+        <div class="vertical-project placeholder offset">
+          <div class="vertical-frame empty-frame"><span>vertical work</span></div>
+          <div class="project-caption"><h3>Project title</h3><span>—</span></div>
+        </div>
+      </div>
+    </section>
 
-        <article class="project-card portrait-card">
-          <div class="portrait-placeholder warm-two"><span>03</span></div>
-          <div class="card-copy">
-            <h3>Another vertical</h3>
-            <p>Short-form work gets a real 9:16 home instead of being cropped into a landscape box.</p>
-          </div>
-        </article>
+    <section class="chapter-section school" id="school">
+      <div class="section-intro">
+        <span class="chapter">03</span>
+        <div>
+          <h2>Film School</h2>
+          <p>Where I figured some things out.</p>
+        </div>
+      </div>
 
-        <article class="project-card portrait-card portrait-offset">
-          <div class="portrait-placeholder warm-three"><span>04</span></div>
-          <div class="card-copy">
-            <h3>One more</h3>
-            <p>A second vertical slot keeps the page rhythmic without making it feel like a social feed.</p>
-          </div>
-        </article>
-
-        <article class="project-card wide-card lower-wide">
-          <div class="placeholder-image warm-four"><span>05</span></div>
-          <div class="card-copy">
-            <h3>Longer-form work</h3>
-            <p>Room for something slower, more cinematic, or simply different.</p>
-          </div>
-        </article>
+      <div class="school-grid">
+        <div class="film-strip placeholder">
+          <div class="film-frame empty-frame"><span>short film</span></div>
+          <div class="project-caption"><h3>Film title</h3><span>—</span></div>
+        </div>
+        <div class="film-strip placeholder">
+          <div class="film-frame empty-frame"><span>short film</span></div>
+          <div class="project-caption"><h3>Film title</h3><span>—</span></div>
+        </div>
       </div>
     </section>
 
     <section class="about" id="about">
-      <div class="about-title">
-        <p class="tiny-note">about</p>
-        <h2>I edit because I like making things click.</h2>
-      </div>
+      <span class="chapter">04</span>
       <div class="about-copy">
-        <p>I’m Owen, a video editor interested in rhythm, clarity, comedy, texture and the tiny choices that make something feel right.</p>
-        <p>I work across editorial, documentary and short-form video. The tools change; the part I care about is finding the shape of the story.</p>
+        <h2>Hi.</h2>
+        <p>I'm Owen. I like making things move, finding the right cut, and making videos people actually enjoy watching.</p>
+        <a href="mailto:hello@owenmalone.com">hello@owenmalone.com ↗</a>
       </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <p class="tiny-note">say hello</p>
-      <h2>Want to make<br>something good?</h2>
-      <a class="big-email" href="mailto:hello@owenmalone.com">hello@owenmalone.com</a>
     </section>
   </main>
 
   <footer>
-    <span>© <span id="year"></span> Owen Malone</span>
-    <span>made with too many tiny timeline nudges</span>
+    <span>Owen Malone</span>
+    <span>© <span id="year"></span></span>
   </footer>
+
+  <div class="modal" id="reelModal" aria-hidden="true">
+    <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+    <div class="modal-card">
+      <p>Showreel goes here.</p>
+      <small>When you have one, we'll drop in a Vimeo or YouTube embed.</small>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

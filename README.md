@@ -1,26 +1,27 @@
-# Owen Malone Portfolio — Quiet Orange Edition
+# Owen Malone Portfolio v4
 
-A lightweight static portfolio for GitHub Pages.
+Homepage structure:
 
-## What changed
+0. Showreel
+1. The Washington Post
+2. Freelance
+3. Film School
+4. About
 
-- Warm off-white / charcoal palette with muted orange accents.
-- Copy is sparse and conversational rather than promotional.
-- Vertical videos get intentional 9:16 layouts.
-- Mixed grid gives landscape and vertical work different amounts of space.
-- Project 01 links to the published Alexi Lalas YouTube Short.
+The design intentionally uses a warm paper background, charcoal, and restrained burnt-orange accents. There are no decorative orange circles.
 
-## Publish
+## Publishing
 
-Upload these files into the root of your GitHub Pages repository and overwrite files with the same names:
-
+Upload/replace these files in your GitHub Pages repository:
 - index.html
 - styles.css
 - script.js
-- alexi-lalas-project.jpg
+- lalas-vertical.jpg (if included)
 
-GitHub Pages will republish automatically.
+## Showreel
 
-## Adding projects
+The showreel area is currently a placeholder. Once you have a YouTube or Vimeo showreel, replace the modal content with its embed.
 
-The placeholder blocks labelled 02–05 are deliberately different shapes. When adding work, replace the placeholder div with an image or linked video thumbnail while preserving the card class. Vertical projects should use `portrait-card` / `portrait-placeholder`; landscape projects should use `wide-card` / `placeholder-image`.
+## Projects
+
+Vertical project frames use a 9:16 aspect ratio. Landscape work uses 16:10 or 16:9 frames so both formats feel intentional.
