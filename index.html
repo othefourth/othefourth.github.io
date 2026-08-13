@@ -3,182 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Owen Malone — Video Editor portfolio." />
+  <meta name="description" content="Owen Malone — video editor." />
   <title>Owen Malone — Video Editor</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top">OWEN MALONE</a>
+    <a class="brand" href="#top">Owen Malone</a>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#work">work</a>
+      <a href="#about">about</a>
+      <a href="#contact">hello</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">VIDEO EDITOR / STORYTELLER</p>
-        <div class="hero-badge">CUT • CRAFT • STORY</div>
-        <h1>Cutting stories<br />that <em>move.</em></h1>
-        <p class="intro">
-          Editorial, documentary, branded and social video.
-          Playful when it should be. Precise when it matters.
-        </p>
-        <a class="text-link" href="#work">View selected work ↓</a>
+      <div class="hero-title-wrap">
+        <p class="tiny-note">video editor</p>
+        <h1>I like finding<br>the <span>good bit.</span></h1>
       </div>
-
-      <button class="reel" type="button" aria-label="Play showreel">
-        <div class="reel-noise"></div>
-        <div class="reel-label">
-          <span>SHOWREEL / 2026</span>
-          <span class="play">▶</span>
-        </div>
-      </button>
+      <div class="hero-side">
+        <p>I edit stories for screens big and small — often fast, sometimes strange, always with care.</p>
+        <a href="#work" class="soft-link">see some work ↓</a>
+      </div>
+      <div class="orange-dot dot-one"></div>
+      <div class="orange-dot dot-two"></div>
     </section>
 
-    <section class="work-section" id="work">
-      <div class="section-heading">
-        <p class="eyebrow">SELECTED WORK</p>
-        <p class="section-count">01 — 06</p>
+    <section class="work" id="work">
+      <div class="work-heading">
+        <h2>Selected work</h2>
+        <p>A mix of vertical, editorial and longer-form pieces.</p>
       </div>
 
-      <div class="projects">
-        <article class="project project-large project-featured">
-          <a class="project-link" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener noreferrer" aria-label="Watch Alexi Lalas and U.S. Soccer on YouTube">
-            <div class="project-media project-media-image" style="background-image:url('alexi-lalas-project.jpg')">
-              <span class="project-index">01</span>
-              <span class="hover-word">WATCH ↗</span>
-            </div>
-            <div class="project-meta">
-              <div>
-                <h2>Alexi Lalas &amp; U.S. Soccer</h2>
-                <p>Washington Post Opinion · Editing / Social Video</p>
-              </div>
-              <span>2026</span>
-            </div>
-            <p class="project-description">A fast-paced vertical opinion piece combining presenter footage, archival material, captions and visual punch-ins to keep a two-minute argument moving.</p>
-          </a>
-        </article>
+      <div class="project-row vertical-feature">
+        <div class="project-copy">
+          <span class="project-number">01</span>
+          <h3>Alexi Lalas &amp; U.S. Soccer</h3>
+          <p class="project-client">The Washington Post</p>
+          <p class="project-blurb">A vertical opinion piece built from presenter footage, archival moments and a lot of tiny pacing decisions.</p>
+          <a class="watch-link" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener noreferrer">watch the short ↗</a>
+        </div>
 
-        <article class="project">
-          <div class="project-media tone-two">
-            <span class="project-index">02</span>
-            <span class="hover-word">PLAY</span>
-          </div>
-          <div class="project-meta">
-            <div>
-              <h2>Project Two</h2>
-              <p>Branded Content</p>
-            </div>
-            <span>2026</span>
+        <a class="vertical-frame" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener noreferrer" aria-label="Watch Alexi Lalas and U.S. Soccer">
+          <img src="lalas-vertical.jpg" alt="Still from Alexi Lalas and U.S. Soccer vertical video" />
+          <span class="play-pill">play</span>
+        </a>
+
+        <div class="side-note">vertical<br>9:16</div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card wide-card">
+          <div class="placeholder-image warm-one"><span>02</span></div>
+          <div class="card-copy">
+            <h3>Next project</h3>
+            <p>A wider piece can live here — documentary, profile, explainer, whatever deserves the space.</p>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-media tone-three">
-            <span class="project-index">03</span>
-            <span class="hover-word">PLAY</span>
-          </div>
-          <div class="project-meta">
-            <div>
-              <h2>Project Three</h2>
-              <p>Social / Short-form</p>
-            </div>
-            <span>2025</span>
+        <article class="project-card portrait-card">
+          <div class="portrait-placeholder warm-two"><span>03</span></div>
+          <div class="card-copy">
+            <h3>Another vertical</h3>
+            <p>Short-form work gets a real 9:16 home instead of being cropped into a landscape box.</p>
           </div>
         </article>
 
-        <article class="project project-wide">
-          <div class="project-media tone-four">
-            <span class="project-index">04</span>
-            <span class="hover-word">PLAY</span>
-          </div>
-          <div class="project-meta">
-            <div>
-              <h2>Project Four</h2>
-              <p>Profile / Mini-doc</p>
-            </div>
-            <span>2025</span>
+        <article class="project-card portrait-card portrait-offset">
+          <div class="portrait-placeholder warm-three"><span>04</span></div>
+          <div class="card-copy">
+            <h3>One more</h3>
+            <p>A second vertical slot keeps the page rhythmic without making it feel like a social feed.</p>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-media tone-five">
-            <span class="project-index">05</span>
-            <span class="hover-word">PLAY</span>
-          </div>
-          <div class="project-meta">
-            <div>
-              <h2>Project Five</h2>
-              <p>Campaign</p>
-            </div>
-            <span>2025</span>
-          </div>
-        </article>
-
-        <article class="project">
-          <div class="project-media tone-six">
-            <span class="project-index">06</span>
-            <span class="hover-word">PLAY</span>
-          </div>
-          <div class="project-meta">
-            <div>
-              <h2>Project Six</h2>
-              <p>Experimental</p>
-            </div>
-            <span>2024</span>
+        <article class="project-card wide-card lower-wide">
+          <div class="placeholder-image warm-four"><span>05</span></div>
+          <div class="card-copy">
+            <h3>Longer-form work</h3>
+            <p>Room for something slower, more cinematic, or simply different.</p>
           </div>
         </article>
       </div>
     </section>
 
     <section class="about" id="about">
-      <p class="eyebrow">ABOUT</p>
-      <div class="about-grid">
-        <h2>I shape raw footage into stories people actually want to watch.</h2>
-        <div class="about-copy">
-          <p>
-            I’m Owen Malone, a video editor focused on strong pacing,
-            clean storytelling and visual rhythm. I work across documentary,
-            editorial, branded and social formats.
-          </p>
-          <p>
-            Available for freelance projects, collaborations and full-time opportunities.
-          </p>
-          <div class="skills">
-            <span>Premiere Pro</span>
-            <span>After Effects</span>
-            <span>DaVinci Resolve</span>
-            <span>Story Editing</span>
-            <span>Sound Design</span>
-          </div>
-        </div>
+      <div class="about-title">
+        <p class="tiny-note">about</p>
+        <h2>I edit because I like making things click.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I’m Owen, a video editor interested in rhythm, clarity, comedy, texture and the tiny choices that make something feel right.</p>
+        <p>I work across editorial, documentary and short-form video. The tools change; the part I care about is finding the shape of the story.</p>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <p class="eyebrow">CONTACT</p>
-      <h2>Have a project<br />in mind?</h2>
-      <a class="email-link" href="mailto:hello@owenmalone.com">hello@owenmalone.com ↗</a>
+      <p class="tiny-note">say hello</p>
+      <h2>Want to make<br>something good?</h2>
+      <a class="big-email" href="mailto:hello@owenmalone.com">hello@owenmalone.com</a>
     </section>
   </main>
 
   <footer>
     <span>© <span id="year"></span> Owen Malone</span>
-    <span>Video Editor</span>
+    <span>made with too many tiny timeline nudges</span>
   </footer>
-
-  <div class="modal" id="reelModal" aria-hidden="true">
-    <button class="modal-close" id="modalClose" aria-label="Close showreel">×</button>
-    <div class="modal-inner">
-      <p class="eyebrow">SHOWREEL PLACEHOLDER</p>
-      <h2>Add your Vimeo or YouTube embed here.</h2>
-      <p>Replace this modal content in <code>index.html</code> with your video embed.</p>
-    </div>
-  </div>
 
   <script src="script.js"></script>
 </body>

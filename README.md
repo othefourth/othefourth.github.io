@@ -1,62 +1,26 @@
-# Owen Malone Portfolio
+# Owen Malone Portfolio — Quiet Orange Edition
 
-A static video-editing portfolio designed for GitHub Pages.
+A lightweight static portfolio for GitHub Pages.
 
-## Files
+## What changed
 
-- `index.html` — page content
-- `styles.css` — design and responsive layout
-- `script.js` — small interactions
+- Warm off-white / charcoal palette with muted orange accents.
+- Copy is sparse and conversational rather than promotional.
+- Vertical videos get intentional 9:16 layouts.
+- Mixed grid gives landscape and vertical work different amounts of space.
+- Project 01 links to the published Alexi Lalas YouTube Short.
 
-## Publish with GitHub Pages
+## Publish
 
-1. Create or open the GitHub repository used for your site.
-2. Upload all three site files to the root of the repository.
-3. In GitHub, open **Settings → Pages**.
-4. Set the source to **Deploy from a branch**.
-5. Choose your main branch and `/ (root)`.
-6. Save.
+Upload these files into the root of your GitHub Pages repository and overwrite files with the same names:
 
-## Connect owenmalone.com
+- index.html
+- styles.css
+- script.js
+- alexi-lalas-project.jpg
 
-In GitHub Pages settings, add `owenmalone.com` as the custom domain.
+GitHub Pages will republish automatically.
 
-GitHub will show you the DNS records it expects. Enter those records at your domain registrar, then enable HTTPS once GitHub confirms the DNS.
+## Adding projects
 
-## Customize
-
-Search `index.html` for:
-
-- `Project One` through `Project Six`
-- `hello@owenmalone.com`
-- the About paragraph
-- `SHOWREEL PLACEHOLDER`
-
-Replace those with your real information.
-
-### Add a Vimeo showreel
-
-Replace the contents of `.modal-inner` in `index.html` with a Vimeo embed, for example:
-
-```html
-<iframe
-  src="https://player.vimeo.com/video/YOUR_VIDEO_ID"
-  width="100%"
-  height="500"
-  frameborder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowfullscreen>
-</iframe>
-```
-
-### Add real project thumbnails
-
-The sample project cards currently use CSS gradients.
-
-A simple replacement is:
-
-```html
-<div class="project-media" style="background-image:url('images/my-project.jpg'); background-size:cover; background-position:center;">
-```
-
-Create an `images` folder in the repository and upload your images there.
+The placeholder blocks labelled 02–05 are deliberately different shapes. When adding work, replace the placeholder div with an image or linked video thumbnail while preserving the card class. Vertical projects should use `portrait-card` / `portrait-placeholder`; landscape projects should use `wide-card` / `placeholder-image`.
