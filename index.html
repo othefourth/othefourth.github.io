@@ -25,41 +25,42 @@
         <h1>Owen Malone</h1>
         <p>I make videos.</p>
       </div>
-      <div class="scribble" aria-hidden="true">↘</div>
-    </section>
+</section>
 
     <section class="reel-section" id="reel">
       <div class="section-intro">
-        <span class="chapter">00</span>
         <h2>Showreel</h2>
       </div>
-      <button class="reel-frame" id="reelButton" type="button" aria-label="Open showreel">
-        <div class="reel-art">
-          <span class="reel-word">PLAY</span>
-          <span class="reel-note">showreel coming soon</span>
-        </div>
-      </button>
+
+      <div class="vimeo-shell showreel-player">
+        <iframe
+          src="https://player.vimeo.com/video/1132630379?title=0&byline=0&portrait=0"
+          title="Owen Malone showreel"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          allowfullscreen>
+        </iframe>
+      </div>
     </section>
 
     <section class="chapter-section" id="post">
       <div class="section-intro">
-        <span class="chapter">01</span>
-        <div>
+<div>
           <h2>The Washington Post</h2>
           <p>Selected work.</p>
         </div>
       </div>
 
       <div class="post-grid">
-        <a class="vertical-project" href="https://www.youtube.com/shorts/0VnzY-GLT2Q" target="_blank" rel="noopener">
+        <article class="vertical-project">
           <div class="vertical-frame lalas">
-            <span class="play-pill">play ↗</span>
+            <span class="play-pill muted-pill">Vimeo link needed</span>
           </div>
           <div class="project-caption">
             <h3>Alexi Lalas &amp; U.S. Soccer</h3>
             <span>2026</span>
           </div>
-        </a>
+        </article>
 
         <div class="vertical-project placeholder">
           <div class="vertical-frame empty-frame">
@@ -85,8 +86,7 @@
 
     <section class="chapter-section freelance" id="freelance">
       <div class="section-intro">
-        <span class="chapter">02</span>
-        <div>
+<div>
           <h2>Freelance</h2>
           <p>Things I've made with good people.</p>
         </div>
@@ -106,8 +106,7 @@
 
     <section class="chapter-section school" id="school">
       <div class="section-intro">
-        <span class="chapter">03</span>
-        <div>
+<div>
           <h2>Film School</h2>
           <p>Where I figured some things out.</p>
         </div>
@@ -126,7 +125,6 @@
     </section>
 
     <section class="about" id="about">
-      <span class="chapter">04</span>
       <div class="about-copy">
         <h2>Hi.</h2>
         <p>I'm Owen. I like making things move, finding the right cut, and making videos people actually enjoy watching.</p>
@@ -139,15 +137,6 @@
     <span>Owen Malone</span>
     <span>© <span id="year"></span></span>
   </footer>
-
-  <div class="modal" id="reelModal" aria-hidden="true">
-    <button id="modalClose" class="modal-close" aria-label="Close">×</button>
-    <div class="modal-card">
-      <p>Showreel goes here.</p>
-      <small>When you have one, we'll drop in a Vimeo or YouTube embed.</small>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

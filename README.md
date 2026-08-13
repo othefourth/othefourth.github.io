@@ -1,27 +1,44 @@
-# Owen Malone Portfolio v4
+# Owen Malone Portfolio v5
 
-Homepage structure:
+Changes in this version:
 
-0. Showreel
-1. The Washington Post
-2. Freelance
-3. Film School
-4. About
+- Removed the decorative arrow.
+- Removed section numbering.
+- Replaced the gridded background with a calmer warm-paper gradient.
+- The showreel now plays directly on the page using Vimeo.
+- Project cards are structured so vertical Vimeo embeds can be added directly later.
+- The Alexi Lalas project no longer redirects to YouTube. Add a Vimeo link for that piece when ready.
 
-The design intentionally uses a warm paper background, charcoal, and restrained burnt-orange accents. There are no decorative orange circles.
+## Current showreel
+
+Vimeo:
+https://vimeo.com/1132630379
+
+Embedded with:
+https://player.vimeo.com/video/1132630379
+
+## Adding a vertical Vimeo project
+
+Replace a thumbnail frame with:
+
+```html
+<div class="project-video">
+  <iframe
+    src="https://player.vimeo.com/video/YOUR_VIDEO_ID?title=0&byline=0&portrait=0"
+    title="Project title"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+```
+
+The `.project-video` class is already set to 9:16.
 
 ## Publishing
 
-Upload/replace these files in your GitHub Pages repository:
+Upload/replace:
 - index.html
 - styles.css
 - script.js
-- lalas-vertical.jpg (if included)
-
-## Showreel
-
-The showreel area is currently a placeholder. Once you have a YouTube or Vimeo showreel, replace the modal content with its embed.
-
-## Projects
-
-Vertical project frames use a 9:16 aspect ratio. Landscape work uses 16:10 or 16:9 frames so both formats feel intentional.
+- lalas-vertical.jpg
