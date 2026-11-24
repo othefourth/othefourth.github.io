@@ -1,44 +1,20 @@
-# Owen Malone Portfolio v5
+# Owen Malone Portfolio
 
-Changes in this version:
+Static portfolio site for GitHub Pages.
 
-- Removed the decorative arrow.
-- Removed section numbering.
-- Replaced the gridded background with a calmer warm-paper gradient.
-- The showreel now plays directly on the page using Vimeo.
-- Project cards are structured so vertical Vimeo embeds can be added directly later.
-- The Alexi Lalas project no longer redirects to YouTube. Add a Vimeo link for that piece when ready.
+## Current structure
 
-## Current showreel
+- Owen Malone — Editor & Producer
+- Selected Washington Post work
+- Freelance and Film School section placeholders (without fake project cards)
+- About and contact section
 
-Vimeo:
-https://vimeo.com/1132630379
+## Publishing to GitHub Pages
 
-Embedded with:
-https://player.vimeo.com/video/1132630379
+Replace the files in the root of the `othefourth.github.io` repository with the contents of this folder, then commit the changes to the `main` branch. Keep the existing `CNAME` file so `owenmalone.com` remains connected.
 
-## Adding a vertical Vimeo project
+## Before publishing
 
-Replace a thumbnail frame with:
-
-```html
-<div class="project-video">
-  <iframe
-    src="https://player.vimeo.com/video/YOUR_VIDEO_ID?title=0&byline=0&portrait=0"
-    title="Project title"
-    frameborder="0"
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-```
-
-The `.project-video` class is already set to 9:16.
-
-## Publishing
-
-Upload/replace:
-- index.html
-- styles.css
-- script.js
-- lalas-vertical.jpg
+- Confirm that `hello@owenmalone.com` is the email address you want public.
+- Add a link to the Alexi Lalas project when it is ready to be public.
+- Replace the short Freelance and Film School intro sections with individual projects as those are selected.
